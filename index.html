@@ -2,24 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #000;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Dinosaurio Chrome V2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="https://ih1.redbubble.net/image.424734110.1384/raf,750x1000,075,t,101010:01c5ca27c6.u2.jpg" alt="Imagen">
+    <div class="contenedor">
+        <div class="suelo"></div>
+        <div class="dino dino-corriendo"></div>
+        <div class="score">0</div>
+        
+        <div class="high-score">High Score: 0</div>
+        <div class="name">by:saixnet</div>
+        <button class="restart-button">Reiniciar</button>
+        
+    </div>
+    
+    <div class="game-over">GAME OVER</div>
+     
+    
+    <script src="script.js"></script>
 </body>
 </html>
